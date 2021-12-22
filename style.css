@@ -15,25 +15,57 @@ body {
 }
 
 .main-header {
+  width: 100%;
+  position: fixed;
   display: flex;
   flex-flow: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  background: #7badcf;
+  background: rgb(17, 17, 17);
   color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-main {
+.nav {
+  list-style: none;
+  display: inline;
+  justify-content: end;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav h3 {
+  color:white;
+  display:inline;
+}
+
+.aboutMe {
   display: flex;
-  flex-flow: wrap;
-  margin-top: 2%;
+  justify-content: start;
+  flex-basis: 100%;
+  padding-right: 20px;
+  padding-top: 80px;
 }
-
 
 .caption {
   justify-content: center;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  padding: 30px 60px 20px 10px;
+  font-style: bold;
+  font-size: 18px;
+  margin-right: 0;
 }
 
 img {
@@ -46,20 +78,72 @@ img {
 }
 
 .about { 
-  justify-content: right;
+  flex-flow: wrap;
+  justify-content: left;
   font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  padding: 0;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
-.area {
+main {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding: 20px;
+  font-weight: bolder;
+  border-style: solid;
+  background: #ddccb3;
+  color: black;
+}
+
+.box1 {
   flex: 1 0 200px;
-  padding: 10px;
+  flex-direction: column;
+  padding: 5px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
 }
 
-.area header {
-  padding: 20px;
-  background: #7d8181;
-  color: #fff;
+.box2 {
+  flex: 1 0 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
 }
+
+.box2a {
+  display: block;
+  flex-direction: row;
+  justify-content: left;
+  flex-basis: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.box2b {
+  display: block;
+  flex-direction:row;
+  justify-content: right;
+  flex-basis: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.box3 {
+  flex: 1 0 200px;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+

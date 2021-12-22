@@ -6,42 +6,55 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Joanna Pastcan's Portfolio</title>
   </head>
-
+<!--MAKE NOTES BEFORE SUBMITTING-->
   <body>
     <header class="main-header">
       <h1>Joanna Pastcan</h1>
-      <a href="#">Home</a>
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
-      <a href="#">Resume</a>
-      <a href="#">Contact</a>
+      <ul class="nav">
+        <li><a href="#"><h3>Home</h3></a></li>
+        <li><a href="#projects"><h3>Projects</h3></a></li>
+        <li><a href="#aboutme"><h3>About Me</h3></a></li>
+        <li><a href="#resume"><h3>Resume</h3></a></li>
+        <li><a href="#contact"><h3>Contact</h3></a></li>
+      </ul>
     </header>
 
-    <div class="caption">
-      <img src="./Joanna-pic.jpg" alt="A picture of Joanna">
-      <figcaption>"The best things in life aren't things."</figcaption>
-      <figcaption>-Art Buchwald-</figcaption>
-    </div>
+    <section class="aboutMe">
+     <div class="caption">
+        <img src="./Joanna-pic.jpg" alt="A picture of Joanna">
+      </div>
 
-    <div class="about">
-      <h2>About Me</h2>
-      <p>My name is Joanna and this is my portfolio page.</p>
-    </div>
+      <div class="about">
+        <h2>Full Stack Web Developer</h2>
+        <p>My name is Joanna and this is my portfolio page.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, pariatur. Assumenda, officiis vitae quidem ullam reprehenderit tenetur sit quasi error deserunt nemo at et ea consectetur facilis? Voluptatum, autem mollitia!</p>
+      </div>
+    </section>
 
     <main>
-      <section class="area">
-        <header>About Me</header>
+      <section class="box1" id= "projects">
+        <div>Projects</div>
+        <ul class="work">
+          <li><a href="www.github.com/jo37973"><img src="./Field.jpg" alt="Portfolio Link"><h3>Portfolio</h3></a></li>
+          <li><a href="https://jo37973.github.io/prework-about-me/"><img src="./Field.jpg" alt="Precourse Link"><h3>Precourse work</h3></a></li>
+          <li><a href="https://jo37973.github.io/MiniProject1/"><img src="./Field.jpg" alt="Mini Project Link"><h3>Mini Project</h3></a></li>
+          <li><a href="https://jo37973.github.io/Horiseon-Homework/"><img src="./Field.jpg" alt="Homework Example"><h3>Homework Example</h3></a></li>
+        </ul>
       </section>
-      <section class="area">
-        <header>Projects</header>
+
+      <section class="box2">
+        <div class="box2a" id="aboutme">About Me</div>
+        <p>Section of info about me</p>
+        <div class= "box2b" id= "resume">Resume</div>
+        <p>Space for resume here</p>
       </section>
-      <section class="area">
-        <header>Resume</header>
+
+      <section class="box3" id= "contact">
+        <div>Contact</div>
       </section>
-      <section class="area">
-        <header>Contact</header>
-      </section>
+
     </main>
   </body>
 
 </html>
+
