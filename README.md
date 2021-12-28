@@ -28,6 +28,8 @@
 
 # Installation 
 * To install this project, I have pushed and deployed it to GitHub.
+* Link: https://jo37973.github.io/Joanna-Pastcans-Portfolio/
+* 
 
 # Usage 
 * This site and code will be used as my Portfolio page to show potential employers when applying for and attaining a position as a web developer.
