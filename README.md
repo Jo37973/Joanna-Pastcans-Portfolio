@@ -28,6 +28,10 @@
 
 # Installation 
 * To install this project, I have pushed and deployed it to GitHub.
+* ![Portfolio1](https://user-images.githubusercontent.com/92402053/147613798-6e91f41e-2b3c-4e3d-a20c-f7f22747be4f.png)
+* ![Portfolio2](https://user-images.githubusercontent.com/92402053/147613807-7cba0a0c-50c2-4c1d-b3cd-343494033bc6.png)
+* ![Portfolio3](https://user-images.githubusercontent.com/92402053/147613813-d43848ee-7307-41b6-8ec9-581c4a22733b.png)
+
 
 # Usage 
 * This site and code will be used as my Portfolio page to show potential employers when applying for and attaining a position as a web developer.
